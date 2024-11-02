@@ -1,5 +1,5 @@
 # Hugo
-title = "My Docs"
+title = "Attajak Doks"
 description = "Congrats on setting up a new Doks project!"
 images = ["cover.png"]
 
@@ -7,7 +7,7 @@ images = ["cover.png"]
 mainSections = ["docs"]
 
 [social]
-  twitter = "getdoks"
+  twitter = "attajak"
 
 # Doks (@thulite/doks-core)
 [doks]
@@ -74,7 +74,7 @@ mainSections = ["docs"]
   editPage = false # false (default) or true
   lastMod = false # false (default) or true
   repoHost = "GitHub" # GitHub (default), Gitea, GitLab, Bitbucket, or BitbucketServer
-  docsRepo = "https://github.com/h-enk/doks"
+  docsRepo = "https://github.com/attajak/attajak-doks.netlify.app"
   docsRepoBranch = "main" # main (default), master, or <branch name>
   docsRepoSubPath = "" # "" (none, default) or <sub path>
 
