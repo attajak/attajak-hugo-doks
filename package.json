@@ -1,8 +1,8 @@
 {
-  "name": "thulite-project",
-  "version": "0.0.0",
-  "description": "Doks theme",
-  "author": "Thulite",
+  "name": "attajak-doks",
+  "version": "0.1.0",
+  "description": "Hugo + Doks theme",
+  "author": "Attajak",
   "license": "MIT",
   "scripts": {
     "create": "hugo new",
