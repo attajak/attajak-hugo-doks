@@ -1,11 +1,15 @@
+# Hugo
 public
 resources
 .hugo_build.lock
+_vendor
 
+# JavaScript
 node_modules
 package-lock.json
-# jsconfig.json
+jsconfig.json
 .env
+pnpm-lock.yaml
 
 # Local Netlify folder
 .netlify
