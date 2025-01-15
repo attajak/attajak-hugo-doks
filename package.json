@@ -6,9 +6,9 @@
   "license": "MIT",
   "scripts": {
     "create": "hugo new content",
-    "dev": "hugo server --disableFastRender --noHTTPCache --logLevel info -b http://localhost -O",
+    "dev": "hugo server --disableFastRender --noHTTPCache --logLevel info -b http://localhost/ -O",
     "format": "prettier **/** -w -c",
-    "build": "hugo --minify --gc",
+    "build": "hugo --minify --gc --logLevel info",
     "preview": "vite preview --outDir public"
   },
   "dependencies": {
