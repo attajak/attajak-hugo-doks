@@ -6,22 +6,22 @@
   "license": "MIT",
   "scripts": {
     "create": "hugo new content",
-    "dev": "hugo server --disableFastRender --noHTTPCache --logLevel info -b http://localhost/ -O",
+    "dev": "hugo server -D -E -F --disableFastRender --noHTTPCache --renderToMemory --logLevel info -b http://localhost:1313/ -O",
     "format": "prettier **/** -w -c",
     "build": "hugo --minify --gc --logLevel info",
     "preview": "vite preview --outDir public"
   },
   "dependencies": {
-    "@tabler/icons": "^3.24.0",
-    "@thulite/doks-core": "^1.8.0",
+    "@tabler/icons": "^3.30.0",
+    "@thulite/doks-core": "^1.8.1",
     "@thulite/images": "^3.3.0",
     "@thulite/inline-svg": "^1.2.0",
     "@thulite/seo": "^2.4.1",
     "thulite": "^2.5.0"
   },
   "devDependencies": {
-    "prettier": "^3.4.2",
-    "vite": "^5.4.11"
+    "prettier": "^3.5.0",
+    "vite": "^6.1.0"
   },
   "engines": {
     "node": ">=20.11.0"
