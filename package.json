@@ -1,12 +1,12 @@
 {
-  "name": "attajak-doks",
+  "name": "attajak-hugo-doks",
   "version": "0.1.0",
   "description": "Hugo + Doks theme",
-  "author": "Attajak",
+  "author": "attajak (https://github.com/attajak)",
   "license": "MIT",
   "scripts": {
     "create": "hugo new content",
-    "dev": "hugo server -D -E -F --disableFastRender --noHTTPCache --renderToMemory --logLevel info -b http://localhost:1313/ -O",
+    "dev": "hugo server -D -E -F -N -O --disableFastRender --noHTTPCache --renderToMemory --logLevel info -b http://localhost:1313/",
     "format": "prettier **/** -w -c",
     "build": "hugo --minify --gc --logLevel info",
     "preview": "vite preview --outDir public"
